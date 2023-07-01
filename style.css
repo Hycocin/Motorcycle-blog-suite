@@ -1,0 +1,35 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media screen and (min-width: 580px){
+    .carousel-item {
+        height: 470px;
+    }
+    
+    .carousel-item img{
+        height: 470px
+    }
+}
+
+
+@media screen and (max-width: 1020px){
+    .carousel-item {
+        height: 420px;
+    }
+    
+    .carousel-item img{
+        height: 420px
+    }
+}
+
+@media screen and (min-width: 1020px){
+    .carousel-item {
+        height: 730px;
+    }
+    
+    .carousel-item img{
+        height: 730px
+    }
+    
+}
